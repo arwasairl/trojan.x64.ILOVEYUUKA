@@ -3,7 +3,7 @@ A joke trojan made in C++ for the x64 platform. Tested on Windows 10. For releas
 
 # Payloads
 Upon running the program, the following payloads executes in order:
-* Installs custom driver for blue screen editing
+* Installs custom driver for blue screen editing (sets driving testsigning to on due to unsigned driver)
 * Replaces background images with sunflower
 * Adds 512 copies of ILOVEYUUKA text files all with a friendly message contained within them.
 * Plays Yuuka's music in the background
